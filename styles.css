@@ -1,0 +1,48 @@
+#head {
+		font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#grocery {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#grocery td, #grocery th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#grocery tr:nth-child(even){background-color: #f2f2f2;}
+
+#grocery tr:hover {background-color: #ddd;}
+
+#grocery th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color: #4CAF50;
+	border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;	
+}
+
+.fname {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
